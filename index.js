@@ -19,13 +19,12 @@ var array = [];
   return array
 }
 
-function johnLennonFacts() {
-var array = [];
-var i >= facts.length
-var facts = ["He was the last Beatle to learn to drive", "He was never a vegetarian", "He was a choir boy and boy scout", "He hated the sound of his own voice"];
-    while (array.length < facts.length) {
-      array.push(facts[i] + "!!!");
-    }
+function johnLennonFacts(array) {
+  var i = 0
+  while (i < array.length) {
+    array[i] += '!!!';
+    i++;
+  }
+  return array;
 
-    return array;
 }
