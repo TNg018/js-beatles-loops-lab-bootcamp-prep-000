@@ -25,6 +25,7 @@ var facts = ["He was the last Beatle to learn to drive", "He was never a vegetar
     while (array.length < facts.length) {
       var i += 0
       array.push(facts[i] + "!!!");
+      i++
     }
 
     return array;
